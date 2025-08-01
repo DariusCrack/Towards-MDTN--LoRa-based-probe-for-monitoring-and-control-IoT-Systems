@@ -1,0 +1,322 @@
+[INFO] Opened UART on /dev/serial0 at 115200 bps
+[DATA] Seq=0  Temp=24.3°C  Hum=67.3%  Pres=1024.4hPa  Light=571.1lux
+
+[INFO] Interrupted by user; closing UART...
+[INFO] UART closed. Exiting.
+[INFO] Enviado al ESP32:
+ <RPI_METRICS>
+CPU Usage: %Cpu(s):  2.8 us,  2.8 sy,  0.0 ni, 94.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Load Average: 16:40:23 up 2 min,  2 users,  load average: 0.82, 0.63, 0.26
+CPU Current Freq: 1500000
+CPU Min Freq: 600000
+CPU Max Freq: 1500000
+CPU Temp: temp=55.5'C
+RAM Usage: total        used        free      shared  buff/cache   available
+Mem:            3794         309        2851          72         633        3342
+Swap:             99           0          99
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  4.8G  8.9G  36% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           759M  1.3M  758M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  255M   31M  225M  13% /boot
+tmpfs           380M   24K  380M   1% /run/user/1000
+Disk Values: /dev/root        15G  4.8G  8.9G  36% /
+IP Address: 
+MAC Address: dc:a6:32:3a:9f:09
+Interface: wlan0
+Link State: up
+Ping 8.8.8.8: Online
+Info - Configuration: eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:3a:9f:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 19  bytes 2233 (2.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 19  bytes 2233 (2.1 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.241.150  netmask 255.255.255.0  broadcast 192.168.241.255
+        inet6 fe80::2108:801f:9b54:4988  prefixlen 64  scopeid 0x20<link>
+        ether dc:a6:32:3a:9f:09  txqueuelen 1000  (Ethernet)
+        RX packets 37  bytes 4392 (4.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 78  bytes 8730 (8.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+Network RX Bytes: 0
+Network TX Bytes: 0
+GPU Memory: gpu=76M
+Voltage: volt=0.8375V
+Throttling: throttled=0x0
+Uptime: up 2 minutes
+Kernel: Linux raspberrypi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+</RPI_METRICS>
+Traceback (most recent call last):
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 84, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[INFO] Enviado al ESP32:
+ <RPI_METRICS>
+CPU Usage: %Cpu(s):  1.4 us,  2.9 sy,  0.0 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Load Average: 15:29:29 up  1:15,  2 users,  load average: 0.01, 0.02, 0.00
+CPU Current Freq: 1500000
+CPU Min Freq: 600000
+CPU Max Freq: 1500000
+CPU Temp: temp=53.0'C
+RAM Usage: total        used        free      shared  buff/cache   available
+Mem:            3794         333        2763          82         698        3303
+Swap:             99           0          99
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  5.2G  8.5G  38% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           759M  1.3M  758M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  255M   31M  225M  13% /boot
+tmpfs           380M   24K  380M   1% /run/user/1000
+/dev/sda1        15G  9.7M   15G   1% /media/usuario/411B-DDB7
+Disk Values: /dev/root        15G  5.2G  8.5G  38% /
+IP Address: 
+MAC Address: cat: /sys/class/net//address: No such file or directory
+Interface: 
+Link State: cat: /sys/class/net//operstate: No such file or directory
+Ping 8.8.8.8: Offline
+Info - Configuration: eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:3a:9f:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 24  bytes 2610 (2.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24  bytes 2610 (2.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ae:d5:d3:ca:4b:b8  txqueuelen 1000  (Ethernet)
+        RX packets 1323  bytes 1839542 (1.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1032  bytes 80672 (78.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+Network RX Bytes: 0
+Network TX Bytes: 0
+GPU Memory: gpu=76M
+Voltage: volt=0.8375V
+Throttling: throttled=0x0
+Uptime: up 1 hour, 15 minutes
+Kernel: Linux raspberrypi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+</RPI_METRICS>
+Traceback (most recent call last):
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 84, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 32
+    "IP Address": run_cmd("ip -4 addr show eth0 | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}'"),
+    ^
+SyntaxError: invalid syntax
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 32
+    "IP Address": run_cmd("ip -4 addr show eth0 | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}'"),
+    ^
+SyntaxError: invalid syntax
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 32
+    "IP Address": run_cmd("ip -4 addr show eth0 | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}'"),
+    ^
+SyntaxError: invalid syntax
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 32
+    "IP Address": run_cmd("ip -4 addr show eth0 | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}'"),
+    ^
+SyntaxError: invalid syntax
+[INFO] Enviado al ESP32:
+ <RPI_METRICS>
+CPU Usage: %Cpu(s):  1.4 us,  1.4 sy,  0.0 ni, 97.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Load Average: 17:09:59 up 7 min,  2 users,  load average: 0.14, 0.28, 0.20
+CPU Current Freq: 1500000
+CPU Min Freq: 600000
+CPU Max Freq: 1500000
+CPU Temp: temp=55.0'C
+RAM Usage: total        used        free      shared  buff/cache   available
+Mem:            3794         311        2745          75         737        3337
+Swap:             99           0          99
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  5.5G  8.2G  41% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           759M  1.3M  758M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  255M   31M  225M  13% /boot
+tmpfs           380M   24K  380M   1% /run/user/1000
+Disk Values: /dev/root        15G  5.5G  8.2G  41% /
+Network RX Bytes: 0
+Network TX Bytes: 0
+GPU Memory: gpu=76M
+Voltage: volt=0.8438V
+Throttling: throttled=0x0
+Uptime: up 7 minutes
+Kernel: Linux raspberrypi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+IP Address: 
+MAC Address: dc:a6:32:3a:9f:09
+Interface: wlan0
+Link State: up
+Ping 8.8.8.8: Online
+Info - Configuration: eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:3a:9f:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 20  bytes 2318 (2.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 20  bytes 2318 (2.2 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.235.150  netmask 255.255.255.0  broadcast 192.168.235.255
+        inet6 fe80::2108:801f:9b54:4988  prefixlen 64  scopeid 0x20<link>
+        ether dc:a6:32:3a:9f:09  txqueuelen 1000  (Ethernet)
+        RX packets 76  bytes 51045 (49.8 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 101  bytes 10276 (10.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</RPI_METRICS>
+Traceback (most recent call last):
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 84, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[INFO] Enviado al ESP32:
+ <RPI_METRICS>
+CPU Usage: %Cpu(s):  1.4 us,  2.9 sy,  0.0 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Load Average: 17:13:07 up 10 min,  2 users,  load average: 0.07, 0.16, 0.17
+CPU Current Freq: 1500000
+CPU Min Freq: 600000
+CPU Max Freq: 1500000
+CPU Temp: temp=55.0'C
+RAM Usage: total        used        free      shared  buff/cache   available
+Mem:            3794         315        2725          89         753        3318
+Swap:             99           0          99
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  5.5G  8.2G  41% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           759M  1.3M  758M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  255M   31M  225M  13% /boot
+tmpfs           380M   24K  380M   1% /run/user/1000
+Disk Values: /dev/root        15G  5.5G  8.2G  41% /
+Network RX Bytes: 0
+Network TX Bytes: 0
+GPU Memory: gpu=76M
+Voltage: volt=0.8438V
+Throttling: throttled=0x0
+Uptime: up 10 minutes
+Kernel: Linux raspberrypi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+IP Address: 
+MAC Address: dc:a6:32:3a:9f:09
+Interface: wlan0
+Link State: up
+Ping 8.8.8.8: Online
+Info - Configuration: eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:3a:9f:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 21  bytes 2391 (2.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21  bytes 2391 (2.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.235.150  netmask 255.255.255.0  broadcast 192.168.235.255
+        inet6 fe80::2108:801f:9b54:4988  prefixlen 64  scopeid 0x20<link>
+        ether dc:a6:32:3a:9f:09  txqueuelen 1000  (Ethernet)
+        RX packets 88  bytes 51813 (50.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 116  bytes 11468 (11.1 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</RPI_METRICS>
+[INFO] Enviado al ESP32:
+ <RPI_METRICS>
+CPU Usage: %Cpu(s):  3.6 us,  4.8 sy,  0.0 ni, 90.5 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st
+Load Average: 17:14:08 up 11 min,  2 users,  load average: 0.21, 0.17, 0.17
+CPU Current Freq: 600000
+CPU Min Freq: 600000
+CPU Max Freq: 1500000
+CPU Temp: temp=55.0'C
+RAM Usage: total        used        free      shared  buff/cache   available
+Mem:            3794         312        2735          81         745        3329
+Swap:             99           0          99
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  5.5G  8.2G  41% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           759M  1.3M  758M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  255M   31M  225M  13% /boot
+tmpfs           380M   24K  380M   1% /run/user/1000
+Disk Values: /dev/root        15G  5.5G  8.2G  41% /
+Network RX Bytes: 0
+Network TX Bytes: 0
+GPU Memory: gpu=76M
+Voltage: volt=0.8438V
+Throttling: throttled=0x0
+Uptime: up 11 minutes
+Kernel: Linux raspberrypi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+IP Address: 
+MAC Address: dc:a6:32:3a:9f:09
+Interface: wlan0
+Link State: up
+Ping 8.8.8.8: Online
+Info - Configuration: eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:3a:9f:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 21  bytes 2391 (2.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21  bytes 2391 (2.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.235.150  netmask 255.255.255.0  broadcast 192.168.235.255
+        inet6 fe80::2108:801f:9b54:4988  prefixlen 64  scopeid 0x20<link>
+        ether dc:a6:32:3a:9f:09  txqueuelen 1000  (Ethernet)
+        RX packets 92  bytes 52085 (50.8 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 120  bytes 11796 (11.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</RPI_METRICS>
+[CMD] Ejecutando: hola
+Traceback (most recent call last):
+  File "/home/usuario/Darius/Topology_4/metrics.topology4.py", line 84, in <module>
+    time.sleep(1)
+KeyboardInterrupt
