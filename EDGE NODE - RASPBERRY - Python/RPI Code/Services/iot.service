@@ -1,0 +1,15 @@
+[Unit]
+Description=IoT Service (Read_Send_Data_t4.py) on Pi4
+After=network.target
+
+[Service]
+Type=simple
+User=darius
+WorkingDirectory=/home/usuario/Darius/Topology_4
+# Fija el proceso al core 1
+ExecStart=/usr/bin/taskset -c 1 /usr/bin/python3 /home/usuario/Darius/Topology_4/Read_Send_Data_t4.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
