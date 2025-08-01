@@ -1,0 +1,13 @@
+[
+  {
+        "name": "DarioSense",
+        "mac_address": "da5a08dc",
+        "sleep_mesh": false,
+        "active": true,
+        "asking_frequency": 120,
+        "listening_time": 900,
+        "lock_on_file_receive": true
+}
+
+]
+
