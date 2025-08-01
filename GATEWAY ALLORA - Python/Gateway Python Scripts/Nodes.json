@@ -1,0 +1,96 @@
+[
+  {
+      "name": "A",
+      "mac_address": "9a76ba3f",
+      "sleep_mesh": false,
+      "active": false,
+      "asking_frequency": 3600,
+      "listening_time": 60,
+      "lock_on_file_receive": false
+  },
+  {
+      "name": "Sentiment1",
+      "mac_address": "75e05f6c",
+      "sleep_mesh": true,
+      "active": false,
+      "asking_frequency": 300,
+      "listening_time": 60,
+      "lock_on_file_receive": true
+  },
+  {
+      "name": "sentiment2",
+      "mac_address": "75e05f64",
+      "sleep_mesh": true,
+      "active": false,
+      "asking_frequency": 300,
+      "listening_time": 60,
+      "lock_on_file_receive": true
+  },
+  {
+      "name": "GPS",
+      "mac_address": "75dbb244",
+      "sleep_mesh": true,
+      "active": false,
+      "asking_frequency": 3600,
+      "listening_time": 900,
+      "lock_on_file_receive": true
+  },
+{
+      "name": "GPS2",
+      "mac_address": "da5ace8c",
+      "sleep_mesh": true,
+      "active": false,
+      "asking_frequency": 3600,
+      "listening_time": 900,
+      "lock_on_file_receive": true
+  },
+{
+      "name": "Tester",
+      "mac_address": "da5ad04c",
+      "sleep_mesh": true,
+      "active": false,
+      "asking_frequency": 120,
+      "listening_time": 30,
+      "lock_on_file_receive": false
+},
+  {
+	"name": "DarioSense",
+	"mac_address": "da5a08dc",
+	"sleep_mesh": true,
+	"active": true,
+	"asking_frequency": 120,
+	"listening_time": 900,
+	"lock_on_file_receive": true
+},
+
+{
+        "name": "DariusTest2",
+        "mac_address": "da5a0f50",
+        "sleep_mesh": false,
+        "active": false,
+        "asking_frequency": 120,
+        "listening_time": 900,
+        "lock_on_file_receive": true
+},
+
+{
+        "name": "BenjaTest",
+        "mac_address": "75e0604c",
+        "sleep_mesh": true,
+        "active": false,
+        "asking_frequency": 120,
+        "listening_time": 0,
+        "lock_on_file_receive": true
+},
+
+{
+        "name": "karim_test1",
+        "mac_address": "da5a16a8",
+        "sleep_mesh": false,
+        "active": false,
+        "asking_frequency": 120,
+        "listening_time": 900,
+        "lock_on_file_receive": false
+}
+
+]
